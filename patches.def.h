@@ -1,3 +1,23 @@
+/* Enabled patches:
+https://dwm.suckless.org/patches/alt-tab/
+https://dwm.suckless.org/patches/ewmhtags/
+https://dwm.suckless.org/patches/moveresize/
+https://dwm.suckless.org/patches/systray/
+https://dwm.suckless.org/patches/swaptags/
+*/
+#define ALT_TAB_PATCH       1
+#define BAR_EWMHTAGS_PATCH  1
+#define MOVERESIZE_PATCH    1
+#define BAR_SYSTRAY_PATCH   1
+#define SWAPTAGS_PATCH      1
+#define SHIFTSWAPTAGS_PATCH 0 // ??
+
+
+
+
+
+
+
 /*
  * This file contains patch control flags.
  *
@@ -167,7 +187,7 @@
 /* The systray patch adds systray for the status bar.
  * https://dwm.suckless.org/patches/systray/
  */
-#define BAR_SYSTRAY_PATCH 0
+// #define BAR_SYSTRAY_PATCH 0
 
 /* Show tag symbols in the bar. */
 #define BAR_TAGS_PATCH 1
@@ -326,7 +346,7 @@
  * https://github.com/bakkeby/dwm-flexipatch/issues/50 (_IS_FLOATING patch)
  * https://dwm.suckless.org/patches/ewmhtags/
  */
-#define BAR_EWMHTAGS_PATCH 0
+// #define BAR_EWMHTAGS_PATCH 0
 
 /* Allows the bar height to be explicitly set rather than being derived from font.
  * https://dwm.suckless.org/patches/bar_height/
@@ -441,7 +461,7 @@
 /* Adds a window task switcher toggled using alt-tab.
  * https://dwm.suckless.org/patches/alt-tab/
  */
-#define ALT_TAB_PATCH 0
+// #define ALT_TAB_PATCH 0
 
 /* All floating windows are centered, like the center patch, but without a rule.
  * The center patch takes precedence over this patch.
@@ -784,7 +804,7 @@
 /* This patch allows you to move and resize dwm's clients using keyboard bindings.
  * https://dwm.suckless.org/patches/moveresize/
  */
-#define MOVERESIZE_PATCH 0
+// #define MOVERESIZE_PATCH 0
 
 /* This patch allows you to move clients around in the stack and swap them with the master.
  * https://dwm.suckless.org/patches/movestack/
@@ -1042,7 +1062,7 @@
  * Depends on the swaptags patch.
  * https://dwm.suckless.org/patches/shift-tools/
  */
-#define SHIFTSWAPTAGS_PATCH 0
+// #define SHIFTSWAPTAGS_PATCH 0
 
 /* Moves the current selected client to the adjacent tag.
  * Also see the focusadjacenttag patch.
@@ -1163,7 +1183,7 @@
  * keyboard shortcuts.
  * https://dwm.suckless.org/patches/swaptags/
  */
-#define SWAPTAGS_PATCH 0
+// #define SWAPTAGS_PATCH 0
 
 /* Switch focus between the master and stack columns using a single keybinding.
  * https://dwm.suckless.org/patches/switchcol/
