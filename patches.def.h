@@ -1,10 +1,12 @@
 /* Enabled patches:
+https://dwm.suckless.org/patches/alpha/
 https://dwm.suckless.org/patches/alt-tab/
 https://dwm.suckless.org/patches/ewmhtags/
 https://dwm.suckless.org/patches/moveresize/
 https://dwm.suckless.org/patches/systray/
 https://dwm.suckless.org/patches/swaptags/
 */
+#define BAR_ALPHA_PATCH 0
 #define ALT_TAB_PATCH       1
 #define BAR_EWMHTAGS_PATCH  1
 #define MOVERESIZE_PATCH    1
@@ -269,7 +271,7 @@ https://dwm.suckless.org/patches/swaptags/
  * when including this patch.
  * https://dwm.suckless.org/patches/alpha/
  */
-#define BAR_ALPHA_PATCH 0
+// #define BAR_ALPHA_PATCH 0
 
 /* This patch introduces alternative tags which can be switched on the fly for the
  * sole purpose of providing visual aid.
