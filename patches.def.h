@@ -5,6 +5,7 @@ https://dwm.suckless.org/patches/alwayscenter/
 https://dwm.suckless.org/patches/ewmhtags/
 https://dwm.suckless.org/patches/fullscreen/
 https://dwm.suckless.org/patches/moveresize/
+https://dwm.suckless.org/patches/shift-tools/
 https://dwm.suckless.org/patches/systray/
 https://dwm.suckless.org/patches/swaptags/
 https://dwm.suckless.org/patches/xrdb/
@@ -15,11 +16,11 @@ https://dwm.suckless.org/patches/xrdb/
 #define BAR_EWMHTAGS_PATCH  1
 #define FULLSCREEN_PATCH    1
 #define MOVERESIZE_PATCH    1
+#define SHIFTSWAPTAGS_PATCH 1
 #define BAR_SYSTRAY_PATCH   1
 #define SWAPTAGS_PATCH      1
 #define XRDB_PATCH          1
 
-#define SHIFTSWAPTAGS_PATCH 0 // ??
 
 
 
