@@ -1,17 +1,24 @@
 /* Enabled patches:
 https://dwm.suckless.org/patches/alpha/
 https://dwm.suckless.org/patches/alt-tab/
+https://dwm.suckless.org/patches/alwayscenter/
 https://dwm.suckless.org/patches/ewmhtags/
+https://dwm.suckless.org/patches/fullscreen/
 https://dwm.suckless.org/patches/moveresize/
 https://dwm.suckless.org/patches/systray/
 https://dwm.suckless.org/patches/swaptags/
+https://dwm.suckless.org/patches/xrdb/
 */
-#define BAR_ALPHA_PATCH 0
+#define BAR_ALPHA_PATCH     1
 #define ALT_TAB_PATCH       1
+#define ALWAYSCENTER_PATCH  1
 #define BAR_EWMHTAGS_PATCH  1
+#define FULLSCREEN_PATCH    1
 #define MOVERESIZE_PATCH    1
 #define BAR_SYSTRAY_PATCH   1
 #define SWAPTAGS_PATCH      1
+#define XRDB_PATCH          1
+
 #define SHIFTSWAPTAGS_PATCH 0 // ??
 
 
@@ -470,7 +477,7 @@ https://dwm.suckless.org/patches/swaptags/
  * This patch interferes with the center transient windows patches.
  * https://dwm.suckless.org/patches/alwayscenter/
  */
-#define ALWAYSCENTER_PATCH 0
+// #define ALWAYSCENTER_PATCH 0
 
 /* This patch allows windows to be resized with its aspect ratio remaining constant.
  * https://dwm.suckless.org/patches/aspectresize/
@@ -708,7 +715,7 @@ https://dwm.suckless.org/patches/swaptags/
  * again it shows the bar and restores the layout that was active before going fullscreen.
  * https://dwm.suckless.org/patches/fullscreen/
  */
-#define FULLSCREEN_PATCH 0
+// #define FULLSCREEN_PATCH 0
 
 /* This patch provides a keybinding to rotate all clients in the currently selected
  * area (master or stack) without affecting the other area.
@@ -1398,7 +1405,7 @@ https://dwm.suckless.org/patches/swaptags/
  * the float border color, awesomebar, urgentborder and titlecolor patches.
  * https://dwm.suckless.org/patches/xrdb/
  */
-#define XRDB_PATCH 0
+// #define XRDB_PATCH 0
 
 /* Simple patch that allows floating windows to be zoomed into the master stack position.
  * https://www.reddit.com/r/suckless/comments/ie5fe3/zoomfloating_my_own_simple_original_patch/
