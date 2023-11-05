@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Dwm
+Name=DWM
 Comment=Dynamic window manager
-Exec=dwm & sleep1;~/.config/dwm-autostart.sh
+Exec=dwm & sleep 1;~/.config/dwm-autostart.sh
 Icon=dwm
 Type=XSession
