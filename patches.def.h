@@ -1,27 +1,28 @@
 /* Enabled patches:
-https://dwm.suckless.org/patches/alpha/
-https://dwm.suckless.org/patches/alt-tab/
-https://dwm.suckless.org/patches/alwayscenter/
-https://dwm.suckless.org/patches/ewmhtags/
-https://dwm.suckless.org/patches/fullscreen/
-https://dwm.suckless.org/patches/moveresize/
-https://dwm.suckless.org/patches/shift-tools/
-https://dwm.suckless.org/patches/systray/
-https://dwm.suckless.org/patches/swaptags/
-https://dwm.suckless.org/patches/xrdb/
-*/
+ * https://dwm.suckless.org/patches/alpha/
+ * https://dwm.suckless.org/patches/alt-tab/
+ * https://dwm.suckless.org/patches/alwayscenter/
+ * https://dwm.suckless.org/patches/ewmhtags/
+ * https://dwm.suckless.org/patches/fullscreen/
+ * https://dwm.suckless.org/patches/moveresize/
+ * https://dwm.suckless.org/patches/systray/
+ * https://dwm.suckless.org/patches/swaptags/
+ * https://dwm.suckless.org/patches/xrdb/
+ */
 #define BAR_ALPHA_PATCH     1
 #define ALT_TAB_PATCH       1
 #define ALWAYSCENTER_PATCH  1
 #define BAR_EWMHTAGS_PATCH  1
 #define FULLSCREEN_PATCH    1
 #define MOVERESIZE_PATCH    1
-#define SHIFTSWAPTAGS_PATCH 1
 #define BAR_SYSTRAY_PATCH   1
 #define SWAPTAGS_PATCH      1
 #define XRDB_PATCH          1
 
-
+// https://dwm.suckless.org/patches/shift-tools/
+#define SHIFTSWAPTAGS_PATCH 1
+#define SHIFTBOTH_PATCH     1
+#define SHIFTVIEW_PATCH     1
 
 
 
@@ -1066,7 +1067,7 @@ https://dwm.suckless.org/patches/xrdb/
  * Also see the focusadjacenttag patch.
  * https://dwm.suckless.org/patches/shift-tools/
  */
-#define SHIFTBOTH_PATCH 0
+// #define SHIFTBOTH_PATCH 0
 
 /* Swaps all the clients on the current tag with all the client on the next/prev tag.
  * Depends on the swaptags patch.
@@ -1089,7 +1090,7 @@ https://dwm.suckless.org/patches/xrdb/
 /* This patch adds keybindings for left and right circular shift through tags.
  * https://github.com/chau-bao-long/dotfiles/blob/master/suckless/dwm/shiftview.diff
  */
-#define SHIFTVIEW_PATCH 0
+// #define SHIFTVIEW_PATCH 0
 
 /* This variant of the shiftview patch adds left and right circular shift through tags,
  * but skips tags where there are no clients.
