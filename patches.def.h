@@ -17,7 +17,7 @@
 #define MOVERESIZE_PATCH    1
 #define BAR_SYSTRAY_PATCH   1
 #define SWAPTAGS_PATCH      1
-#define XRDB_PATCH          1
+#define XRDB_PATCH          0
 
 // https://dwm.suckless.org/patches/shift-tools/
 #define SHIFTSWAPTAGS_PATCH 1
