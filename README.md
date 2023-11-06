@@ -29,6 +29,9 @@ Forked from [dwm-flexipatch](https://github.com/bakkeby/dwm-flexipatch)
 # Changelog
 (Only tracks changes in config.def.h)
 
+## C2
+Removed windows borders (by setting `borderpx` to 0)
+
 <br>
 
 ## C1
