@@ -30,7 +30,7 @@ Forked from [dwm-flexipatch](https://github.com/bakkeby/dwm-flexipatch)
 (Only tracks changes in config.def.h)
 
 ## C2
-Removed windows borders (by setting `borderpx` to 0)
+Changed alpha of the bar (by setting `baralpha` to `0x30`)
 
 <br>
 
