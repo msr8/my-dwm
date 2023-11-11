@@ -29,6 +29,11 @@ Forked from [dwm-flexipatch](https://github.com/bakkeby/dwm-flexipatch)
 # Changelog
 (Only tracks changes in config.def.h)
 
+## C3
+Changed `ICONSIZE` to 15 (from 20) (winicon patch)
+
+<br>
+
 ## C2
 Changed alpha of the bar (by setting `baralpha` to `0x00`)
 
