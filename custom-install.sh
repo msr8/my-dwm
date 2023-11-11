@@ -7,4 +7,4 @@ if [ -f patches.h ]; then
     rm patches.h
 fi
 
-sudo make clean install -O3 march=native
+sudo make clean install
