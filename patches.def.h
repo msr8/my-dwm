@@ -7,6 +7,8 @@
  * https://dwm.suckless.org/patches/moveresize/
  * https://dwm.suckless.org/patches/systray/
  * https://dwm.suckless.org/patches/swaptags/
+ * https://github.com/bakkeby/patches/wiki/unmanaged
+ * https://dwm.suckless.org/patches/winicon
  * https://dwm.suckless.org/patches/xrdb/
  */
 #define BAR_ALPHA_PATCH     1
@@ -17,7 +19,9 @@
 #define MOVERESIZE_PATCH    1
 #define BAR_SYSTRAY_PATCH   1
 #define SWAPTAGS_PATCH      1
-#define XRDB_PATCH          0
+#define UNMANAGED_PATCH     1
+#define BAR_WINICON_PATCH   1
+#define XRDB_PATCH          1
 
 // https://dwm.suckless.org/patches/shift-tools/
 #define SHIFTSWAPTAGS_PATCH 1
@@ -229,7 +233,7 @@
  * https://github.com/AdamYuan/dwm-winicon
  * https://dwm.suckless.org/patches/winicon
  */
-#define BAR_WINICON_PATCH 0
+// #define BAR_WINICON_PATCH 0
 
 /* Show window title in bar */
 #define BAR_WINTITLE_PATCH 1
@@ -1345,7 +1349,7 @@
  * launchers, docks, desktop icons and more.
  * https://github.com/bakkeby/patches/wiki/unmanaged
  */
-#define UNMANAGED_PATCH 0
+// #define UNMANAGED_PATCH 0
 
 /* This patch adds configurable gaps between windows differentiating between outer, inner,
  * horizontal and vertical gaps.

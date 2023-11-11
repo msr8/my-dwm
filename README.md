@@ -30,7 +30,7 @@ Forked from [dwm-flexipatch](https://github.com/bakkeby/dwm-flexipatch)
 (Only tracks changes in config.def.h)
 
 ## C2
-Changed alpha of the bar (by setting `baralpha` to `0x30`)
+Changed alpha of the bar (by setting `baralpha` to `0x00`)
 
 <br>
 
