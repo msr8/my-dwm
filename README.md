@@ -19,6 +19,7 @@ Forked from [dwm-flexipatch](https://github.com/bakkeby/dwm-flexipatch)
 | Super+Alt+(Right/Left)         | Swap tags                 | `shiftswaptags` |
 | Shift+Alt+(Right/Left/Up/Down) | Resize window             | `moveresize`    |
 | Alt+F4 & Super+Q               | Close window              | `killclient`    |
+| Super+S                        | Toggle sticky             | `togglesticky`  |
 
 
 
@@ -28,6 +29,12 @@ Forked from [dwm-flexipatch](https://github.com/bakkeby/dwm-flexipatch)
 
 # Changelog
 (Only tracks changes in config.def.h)
+
+## C5
+Added the following keybinding:
+- Super+S: Toggle sticky (`togglesticky`)
+
+<br>
 
 ## C4
 Added the following keybindings:

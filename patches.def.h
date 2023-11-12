@@ -5,6 +5,7 @@
  * https://dwm.suckless.org/patches/ewmhtags/
  * https://dwm.suckless.org/patches/fullscreen/
  * https://dwm.suckless.org/patches/moveresize/
+ * https://dwm.suckless.org/patches/sticky/
  * https://dwm.suckless.org/patches/systray/
  * https://dwm.suckless.org/patches/swaptags/
  * https://github.com/bakkeby/patches/wiki/unmanaged
@@ -17,6 +18,7 @@
 #define BAR_EWMHTAGS_PATCH  1
 #define FULLSCREEN_PATCH    1
 #define MOVERESIZE_PATCH    1
+#define STICKY_PATCH        1
 #define BAR_SYSTRAY_PATCH   1
 #define SWAPTAGS_PATCH      1
 #define UNMANAGED_PATCH     1
@@ -1168,7 +1170,7 @@
 /* Adds toggleable keyboard shortcut to make a client 'sticky', i.e. visible on all tags.
  * https://dwm.suckless.org/patches/sticky/
  */
-#define STICKY_PATCH 0
+// #define STICKY_PATCH 0
 
 /* This patch adds "window swallowing" to dwm as known from Plan 9's windowing system rio.
  * Clients marked with isterminal in config.h swallow a window opened by any child process,
